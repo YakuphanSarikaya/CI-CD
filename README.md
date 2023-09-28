@@ -26,9 +26,28 @@ Merhaba Arkadaşlar bu dökümantasyon **CI/CD** süreçlerine dair tüm bilgile
      * Sürekli entegrasyonun bir uzantısı olarak, tüm kod değişikliklerini otomatik olarak bir test ve/veya **Staging** ortamına dağıtan süreç.
      * Son üretim dağıtımı manuel olacaktır.
      * Sürekli teslimatın amacı, her zaman üretim ortamına dağıtıma hazır bir kod tabanına sahip olmaktır.
+     ![cd](https://github.com/YakuphanSarikaya/CI-CD/assets/107619783/45a46d1e-43bd-4c0c-a93e-f1ad7b13599f)
+
      
-     ![cd](https://github.com/YakuphanSarikaya/CI-CD/assets/107619783/4310a391-3e0a-4357-b695-12ca8aa09a75)
   **Staging Nedir** 
   "Staging," yazılım geliştirme sürecinde kullanılan bir terimdir ve genellikle canlı üretim ortamına geçmeden önce kullanılan bir test ortamını ifade eder. Staging ortamı, yazılımın son değişikliklerinin ve güncellemelerinin test edildiği bir aşamadır. Bu aşamada, yazılımın performansı, uyumluluğu ve istikrarı gibi faktörler test edilir. Staging ortamında yapılan testler, herhangi bir hata veya sorunu tespit etmek ve bunları gidermek için kullanılır.
 
 Staging, canlı üretim ortamına geçiş öncesi son kontrol ve onay aşaması olarak kullanılır. Bu sayede, canlı üretim ortamına geçiş sırasında beklenmeyen sorunların önlenmesine yardımcı olur ve yazılımın güvenli bir şekilde kullanıcılara sunulmasını sağlar.
+
+  ## Continuous Deployment (CD)(Sürekli Dağıtım)
+  * Üretim hattının tüm aşamalarını geçen her değişiklik, müşterilere/Üretim ortamına yayımlanır.
+  * Herhangi bir insan müdahalesi olmadan tamamen otomatik.
+    ![cd2](https://github.com/YakuphanSarikaya/CI-CD/assets/107619783/a2ce455a-e6f5-4faf-a4f1-0528dd442b0c)
+# Ne yapacağız?
+ * Bir GitLab projesi oluşturmak ve kodu yüklemek
+ * GitLab CI/CD boruları (pipeline) yapılandırması için gereksinimler
+
+
+# SSH NEDİR?
+* SSH, "Güvenli Kabuk" olarak da bilinir.
+* SSH ya da Güvenli Kabuk, iki bilgisayarın iletişim kurmasını sağlayan bir ağ iletişim protokolüdür.
+* SSH, güvensiz bir ağ üzerinden bir bilgisayara güvenli bir şekilde erişim sağlayan bir yol sunar.
+## Gitlab SSH key nasıl kurulur?
+* SSH Key oluştur
+* gitlab ->Settings-> SSh keyi buradan kopyala
+  
